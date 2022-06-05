@@ -1,0 +1,25 @@
+{
+	"username": "yoyozaemon",
+	"repos": "30",
+	"avatar": null,
+	"linkedinURL": "https://www.linkedin.com/in//",
+	"twitterId": "",
+	"gitlabId": null,
+	"navLinks": [
+		{
+			"name": "Email",
+			"link": "mailto:vijay.j8779@gmail.com"
+		},
+		{
+			"name": "Resume",
+			"link": ""
+		},
+		{
+			"name": "Contact Me",
+			"link": ""
+		}
+	],
+	"infoLinks": [],
+	"socialPreviewImage": "enabled",
+	"profileREADME": "disabled"
+}
