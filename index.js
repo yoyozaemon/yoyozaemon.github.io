@@ -31,6 +31,7 @@ if (window.CSS && CSS.supports("color", "var(--primary)")) {
   btnContainer.style.display = "none";
 }
 
+
 //          Masonry for the repository cards
 // @SEE https://masonry.desandro.com/
 let msnry = new Masonry(".grid", {
@@ -85,3 +86,12 @@ document.getElementById("pf-img-source").onclick = function avatarClick() {
     avatarClickCount = 0;
   }
 };
+// Handle avatar click animation
+const avatar = document.getElementById("pf-img-source");
+
+avatar.addEventListener("click", function avatarClick() {
+avatar.style.transform = "rotate(360deg)";
+setTimeout(() => {
+avatar.style.transform = "rotate(0)";
+}, 1000);
+});
